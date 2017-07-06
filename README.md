@@ -7,9 +7,16 @@ Step 1
 step 2
 `npm install`
 
-step 3 (Optional)
+step 3
+`npm install @types/node --save-dev`
+
+step 4 (Optional)
 if nodemon is not installed
 `npm install -g nodemon`
 
-step 4
+step 5
+Enable node in typings
+`typings install env~node --global`
+
+step 6
 `npm start`
