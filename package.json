@@ -1,0 +1,23 @@
+{
+  "name": "node-ts-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./dist/server.js"
+  },
+  "engines": {
+    "node": "~5.6"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.7"
+  }
+}

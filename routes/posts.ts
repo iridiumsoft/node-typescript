@@ -1,0 +1,1 @@
+import * as Posts from '../models/posts';import {Post} from "../interfaces/post";export class postRouting {    Posts: Array<Post>;    constructor(private app) {        app.get('/posts', (req, res, next) => {            Posts.find({}, (err, docs) => {                this.Posts = docs;                res.send(this.Posts);            });        })    }}

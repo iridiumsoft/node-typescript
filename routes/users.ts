@@ -1,0 +1,1 @@
+export class userRouting {    constructor(private app) {        app.get('/users', (req, res, next) => {            res.send('Yahoooo from users');        })    }}

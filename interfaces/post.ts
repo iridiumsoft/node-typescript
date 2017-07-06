@@ -1,0 +1,1 @@
+export class Post {    title: string;    excerpt: string;}

@@ -1,0 +1,1 @@
+import {postRouting} from './routes/posts';import {userRouting} from './routes/users';export class Routing {    constructor(private app) {        new postRouting(app);        new userRouting(app);    }}

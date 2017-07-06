@@ -1,0 +1,1 @@
+export class config {    static db = {        name: 'sujag'    };    static port: number = 2000;}

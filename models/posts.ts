@@ -1,0 +1,1 @@
+import * as mongoose from 'mongoose';let Schema = mongoose.Schema;let Posts = mongoose.model('posts', new Schema({    n: String,    v: {}}), 'posts');export = Posts;
