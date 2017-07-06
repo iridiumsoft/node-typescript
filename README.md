@@ -2,7 +2,7 @@
 Template to use Typescript for NodeJS
 
 Step 1
-`https://github.com/iridiumsoft/node-typescript.git`
+`https://github.com/iridiumsoft/node-typescript.git && cd node-typescript`
 
 step 2
 `npm install`
